@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/",
+            "lambdaFunction": "apitmf",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/"
+        }
+    ],
+    "resourceName": "backendtmf",
+    "apiName": "backendtmf",
+    "functionArns": [
+        {
+            "lambdaFunction": "apitmf"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify3f9b255d6f7e4-staging-232628-authRole",
+        "unAuthRoleName": "amplify-amplify3f9b255d6f7e4-staging-232628-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "apitmf",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "QuickReportsfrontend",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "serverless",
+      "DistributionDir": "dist",
+      "BuildCommand": "node app.js",
+      "StartCommand": "node app.js"
+    }
+  }
+}
